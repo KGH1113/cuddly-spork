@@ -4,9 +4,13 @@
 이 저장소는 서운중학교 방송부의 웹사이트에 대한 소스 코드와 리소스 파일을 포함합니다. 이 웹사이트는 서운중학교 학생들과 교내 커뮤니티를 위한 정보와 서비스를 제공합니다.
 
 ## 홈페이지 화면
+Main Page
 ![Main Page](./example_images/index_html.jpg)
+/songrequest
 ![/songrequest](./example_images/songrequest_html.jpg)
+/see-songrequest
 ![/see-songrequest](./example_images/seesongrequest_html.jpg)
+/request
 ![/request](./example_images/request_html.jpg)
 
 ## 기능
