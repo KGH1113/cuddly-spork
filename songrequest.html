@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>점심시간 노래신청</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8157250513051684" crossorigin="anonymous"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>점심시간 노래신청</h1>
+						<p>아래의 항목들을 입력해주세요.</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+                                    <div class="wraper">
+                                        <h2>신청하기</h2>
+                                        <div class="inputbox">
+                                            <label style="margin-bottom: 0; margin-top: 20px;">Your Name</label>
+                                            <input type="text" id="user-name" placeholder="ex) 홍길동" autocomplete="off" required>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label style="margin-bottom: 0; margin-top: 20px;">Your School Number</label>
+                                            <input type="text" id="school-number" placeholder="ex) 21304" autocomplete="off" required>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label style="margin-bottom: 0; margin-top: 20px;">Song Title</label>
+                                            <input type="text" id="song-name" placeholder="ex) 파이팅 해야지" autocomplete="off" required>
+                                        </div>
+                                        <div class="inputbox">
+                                            <label style="margin-bottom: 0; margin-top: 20px;">Artist</label>
+                                            <input type="text" id="artist" placeholder="ex) 세븐틴" autocomplete="off" required>
+                                        </div>
+                                        <button id="submit-btn" class="button primary" style="margin-top: 20px; margin-bottom: 50px;">Request</button>
+                                        <div class="register">
+                                            <p><a href="/see-songrequest">View Requests</a></p>
+                                        </div>
+                                    </div>
+                                    <!-- <br /><br /><br /><br />
+                                    <p>이런거좀 하지 말자...</p>
+                                    <img src="./images/이런거 하지 말자....png" style="width: 100%;"> -->
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+                    <footer id="footer">
+                        <section>
+                            <h2>일반 문의</h2>
+                            <h4>서운중학교 방송부</h4>
+                            <dl class="alt">
+                                <dt>Address</dt>
+                                <dd>서울특별시 서초구 서운로 115</dd>
+                                <dt>Email</dt>
+                                <dd><a href="mailto:">[학교이메일]</a></dd>
+                            </dl>
+                        </section>
+                        <section>
+                        <h2>홈페이지 기술 지원</h2>
+                            <h4>홈페이지 담당자</h4>
+                            <dl class="alt">
+                                <dt>Email</dt>
+                                <dd><a href="mailto:gangguhyeon1113@gmail.com">gangguhyeon1113@gmail.com</a></dd>
+                                <dt>Instagram</dt>
+                                <dd><a href="https://www.instagram.com/kgh_guhyeon" target="_blank">@kgh_guhyeon</a></dd>
+                            </dl>
+                        </section>
+                        <ul class="icons">
+                            <!-- 안 쓰는 기능임 -->
+                            <!-- <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+                            <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+                            <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+                            <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                            <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
+                        </ul>
+                        <p class="copyright">© 1982~2023 서운중학교 방송부 all rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a></p>
+                    </footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script type="module" src="assets/js/songrequest.js"></script>
+
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+        
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.js"></script>
+            <script type="text/javascript" src="https://l2.io/ip.js?var=myip"></script>
+            <script type="text/javascript">
+                // console.log(myip);
+            </script>
+	</body>
+</html>
